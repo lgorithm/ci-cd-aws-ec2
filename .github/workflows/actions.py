@@ -3,7 +3,7 @@ name: Build, Test, and Deploy to AWS EC2
 on:
   push:
     branches:
-      - main
+      - develop
 
 jobs:
   build_test_deploy:
